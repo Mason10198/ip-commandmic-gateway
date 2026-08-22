@@ -103,7 +103,12 @@ or container.
 ## Deferred beyond the first gateway release
 
 - Internet-facing operation, cloud relay and unattended remote PTT.
-- Multi-radio/multi-CommandMic coordination.
+- Multi-radio/multi-CommandMic coordination. A later orchestration layer may
+  route one physical mic to two or more radios, but it requires explicit RX/TX
+  selection, display ownership, collision prevention and fail-closed PTT.
+- AllStarLink and other node adapters. The first candidate is a radioless node
+  that maps physical CommandMic audio, PTT and controls onto a documented local
+  adapter interface.
 - Advanced CPS semantics not present in the stable library contract.
 - Emergency, destructive and firmware-sensitive functions.
 - macOS binary claims without real-hardware qualification.
