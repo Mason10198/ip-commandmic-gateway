@@ -32,8 +32,8 @@ browser/PWA
 
 - [x] Rename the Web scaffold and Python namespace to `ip-commandmic-gateway`.
 - [x] Depend on stable `ip-commandmic>=1.0,<2`.
-- [x] Fold the useful UI scaffold into this repository; retire the separate UI
-  package after migration so normal development has one product codebase.
+- [x] Fold the useful UI scaffold into this repository and retire the separate
+  migration directory so normal development has one product codebase.
 - [ ] Reconcile Python/browser contracts into one generated or schema-validated
   role-neutral action/event/state definition.
 - [x] Add CI for Python 3.11/3.14 on Linux/Windows and frontend type/build checks.

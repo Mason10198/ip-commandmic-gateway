@@ -20,7 +20,6 @@ audio = ["miniaudio>=1.71,<2"]
 [project.urls]
 Repository = "https://github.com/mason10198/ip-commandmic-gateway"
 Protocol = "https://github.com/mason10198/ip-commandmic"
-Interface = "https://github.com/mason10198/ip-commandmic-ui"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
