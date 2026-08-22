@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ip-commandmic-gateway"
+version = "0.1.0a1"
+description = "Cross-platform local gateway and browser UI for IP CommandMic"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Mason Nelson (N5LSN)"}]
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
+dependencies = ["ip-commandmic>=1.0,<2", "aiohttp>=3.10,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+audio = ["miniaudio>=1.71,<2"]
+
+[project.urls]
+Repository = "https://github.com/mason10198/ip-commandmic-gateway"
+Protocol = "https://github.com/mason10198/ip-commandmic"
+Interface = "https://github.com/mason10198/ip-commandmic-ui"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ip_commandmic_gateway = ["static/**/*"]
+
+[project.scripts]
+ip-commandmic-gateway = "ip_commandmic_gateway.app:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

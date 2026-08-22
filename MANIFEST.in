@@ -1,0 +1,6 @@
+include GATEWAY_PLAN.md
+include SECURITY.md
+recursive-include deploy *.md
+recursive-include frontend *.json *.ts *.webmanifest
+prune frontend/node_modules
+prune frontend/dist

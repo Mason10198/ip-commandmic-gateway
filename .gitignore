@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-temp/
+dist/
+dist-check/
+build/
+*.egg-info/
+frontend/node_modules/
+frontend/dist/

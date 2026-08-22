@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+  --commandmic-bg: #0b1016;
+  --commandmic-panel: #141b24;
+  --commandmic-panel-raised: #1a2430;
+  --commandmic-line: #303d4b;
+  --commandmic-text: #eef5f8;
+  --commandmic-muted: #91a3b1;
+  --commandmic-accent: #42c7ed;
+  --commandmic-accent-strong: #168eaf;
+  --commandmic-success: #67d391;
+  --commandmic-danger: #fa6974;
+  --commandmic-warning: #f4b64c;
+}

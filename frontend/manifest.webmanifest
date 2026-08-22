@@ -1,0 +1,8 @@
+{
+  "name": "IP CommandMic Web",
+  "short_name": "CommandMic",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1016",
+  "theme_color": "#0b1016"
+}
