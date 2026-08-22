@@ -60,8 +60,6 @@ progresses.
 | Windows/Linux end-user installers | Planned |
 
 See [GATEWAY_PLAN.md](GATEWAY_PLAN.md) for milestone boundaries and safety gates.
-Work across the repository family is organized on the
-[IP CommandMic GitHub Project](https://github.com/users/Mason10198/projects/1).
 
 ## Contributing
 
